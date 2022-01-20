@@ -1,0 +1,24 @@
+[1mdiff --git a/2.py b/2.py[m
+[1mindex b721b8c..0d5e56a 100644[m
+[1m--- a/2.py[m
+[1m+++ b/2.py[m
+[36m@@ -19,7 +19,6 @@[m [mprint(f"{numeros[9]} - {numeros[19]} - {numeros[29]} - {numeros[39]} - {numeros[[m
+ [m
+ [m
+ for numero in range(5):[m
+[31m-  n1=int(input("Introduce el número: "))[m
+   numeros[0+n1-1]= "X"[m
+   print(f"{numeros[0]} - {numeros[10]} - {numeros[20]} - {numeros[30]} - {numeros[40]}")[m
+   print(f"{numeros[1]} - {numeros[11]} - {numeros[21]} - {numeros[31]} - {numeros[41]}")[m
+[1mdiff --git a/europrueba.py b/europrueba.py[m
+[1mindex 3d49741..b721b8c 100644[m
+[1m--- a/europrueba.py[m
+[1m+++ b/europrueba.py[m
+[36m@@ -7,7 +7,6 @@[m [mCreated on Tue Nov 30 09:54:53 2021[m
+ [m
+ numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50][m
+ [m
+[31m-print(f"{numeros[0]} - {numeros[10]} - {numeros[20]} - {numeros[30]} - {numeros[40]}")[m
+ print(f"{numeros[1]} - {numeros[11]} - {numeros[21]} - {numeros[31]} - {numeros[41]}")[m
+ print(f"{numeros[2]} - {numeros[12]} - {numeros[22]} - {numeros[32]} - {numeros[42]}")  [m
+ print(f"{numeros[3]} - {numeros[13]} - {numeros[23]} - {numeros[33]} - {numeros[43]}")[m
