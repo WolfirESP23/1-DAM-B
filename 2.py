@@ -19,7 +19,6 @@ print(f"{numeros[9]} - {numeros[19]} - {numeros[29]} - {numeros[39]} - {numeros[
 
 
 for numero in range(5):
-  n1=int(input("Introduce el número: "))
   numeros[0+n1-1]= "X"
   print(f"{numeros[0]} - {numeros[10]} - {numeros[20]} - {numeros[30]} - {numeros[40]}")
   print(f"{numeros[1]} - {numeros[11]} - {numeros[21]} - {numeros[31]} - {numeros[41]}")
